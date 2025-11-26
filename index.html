@@ -3,81 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selman Portfolio</title>
+    <title>Selman Polat Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Selman Polat</h1>
-        <p>Robotics Captain • STEM Developer • F1 Data Analyst • CAD Designer</p>
-        <nav>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#about">About</a>
-        </nav>
-    </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a high school STEM student focused on robotics engineering, CAD design, 
-            programming, AI, and data analysis. I lead my school’s FRC robotics team and 
-            develop engineering projects ranging from autonomous systems to F1 race analysis tools.
-        </p>
-    </section>
+<nav>
+    <h2 class="logo">Selman</h2>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <span>Python</span>
-            <span>Java</span>
-            <span>MATLAB</span>
-            <span>CAD (SolidWorks/Onshape)</span>
-            <span>Robotics (FRC)</span>
-            <span>AI / Machine Learning</span>
-            <span>Data Visualization</span>
-            <span>Git & GitHub</span>
-        </div>
-    </section>
+<header class="hero">
+    <h1>Welcome</h1>
+    <p>Robotics • Engineering • AI • Coding</p>
+</header>
 
-    <section id="projects">
-        <h2>Projects</h2>
+<section class="section">
+    <h2>Featured Projects</h2>
 
-        <div class="project-card">
+    <div class="grid">
+
+        <div class="card">
             <h3>FRC Robot 2025</h3>
-            <p>Full robot code including elevator, arm, coral roller, and tank drive control system.</p>
-            <a href="https://github.com/YOURUSERNAME/YOURREPO" target="_blank">View on GitHub</a>
+            <p>Robot code with elevator + arm + roller shooter using tank drive.</p>
+            <a href="#" class="btn">View on GitHub</a>
         </div>
 
-        <div class="project-card">
-            <h3>F1 Data Analysis Project</h3>
-            <p>Python-based GUI with race predictions, weather analysis, and multi-plot visualizations.</p>
-            <a href="https://github.com/YOURUSERNAME/YOURREPO" target="_blank">View on GitHub</a>
+        <div class="card">
+            <h3>F1 Data Analysis</h3>
+            <p>FastF1 analysis, predictive models, and fully automated plots.</p>
+            <a href="#" class="btn">View on GitHub</a>
         </div>
 
-        <div class="project-card">
-            <h3>AI Detection Tool</h3>
-            <p>Machine learning project that identifies objects and patterns using a custom-trained model.</p>
-            <a href="https://github.com/YOURUSERNAME/YOURREPO" target="_blank">View on GitHub</a>
+        <div class="card">
+            <h3>CAD Pistons</h3>
+            <p>Full piston assembly with renders and mechanism breakdown.</p>
+            <a href="#" class="btn">View on GitHub</a>
         </div>
 
-        <div class="project-card">
-            <h3>CAD Swerve Module</h3>
-            <p>Precision-engineered swerve drive assembly with full mechanical constraints.</p>
-            <a href="https://github.com/YOURUSERNAME/YOURREPO" target="_blank">View on GitHub</a>
+        <div class="card">
+            <h3>AI Detection Project</h3>
+            <p>ML model to classify real vs AI-generated images.</p>
+            <a href="#" class="btn">View on GitHub</a>
         </div>
 
-        <div class="project-card">
-            <h3>MATLAB Signal Processing</h3>
-            <p>Small engineering computation project involving data fitting and frequency analysis.</p>
-            <a href="https://github.com/YOURUSERNAME/YOURREPO" target="_blank">View on GitHub</a>
-        </div>
+    </div>
+</section>
 
-    </section>
-
-    <footer>
-        <p>© 2025 Selman Polat</p>
-    </footer>
 </body>
 </html>
