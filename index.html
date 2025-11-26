@@ -3,57 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selman Polat Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Selman Polat — Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <nav>
+        <h1 class="logo">Selman Polat</h1>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About Me</a></li>
+        </ul>
+    </nav>
 
-<nav>
-    <h2 class="logo">Selman</h2>
-    <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
-    </ul>
-</nav>
+    <header class="hero">
+        <h2>Engineering & AI Portfolio</h2>
+        <p>Showcasing my work in robotics, CAD, AI, and software development.</p>
+    </header>
 
-<header class="hero">
-    <h1>Welcome</h1>
-    <p>Robotics • Engineering • AI • Coding</p>
-</header>
+    <section class="section">
+        <h3>Featured Projects</h3>
 
-<section class="section">
-    <h2>Featured Projects</h2>
+        <div class="project-grid">
 
-    <div class="grid">
+            <div class="project-card">
+                <h4>FRC Robot 2025 (CAD)</h4>
+                <p>A full mechanical design featuring a tank drive, elevator, and coral intake mechanism.</p>
+                <a href="https://github.com/YOUR-USERNAME/REPO">View Project</a>
+            </div>
 
-        <div class="card">
-            <h3>FRC Robot 2025</h3>
-            <p>Robot code with elevator + arm + roller shooter using tank drive.</p>
-            <a href="#" class="btn">View on GitHub</a>
+            <div class="project-card">
+                <h4>AI Dataset Study</h4>
+                <p>Explored dataset balancing, labeling, and model behavior across several ML experiments.</p>
+                <a href="https://github.com/YOUR-USERNAME/REPO">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h4>Matlab Simulations</h4>
+                <p>Physics simulations including spring-mass-damper systems, projectile motion, and bouncing balls.</p>
+                <a href="projects.html">View All</a>
+            </div>
+
         </div>
-
-        <div class="card">
-            <h3>F1 Data Analysis</h3>
-            <p>FastF1 analysis, predictive models, and fully automated plots.</p>
-            <a href="#" class="btn">View on GitHub</a>
-        </div>
-
-        <div class="card">
-            <h3>CAD Pistons</h3>
-            <p>Full piston assembly with renders and mechanism breakdown.</p>
-            <a href="#" class="btn">View on GitHub</a>
-        </div>
-
-        <div class="card">
-            <h3>AI Detection Project</h3>
-            <p>ML model to classify real vs AI-generated images.</p>
-            <a href="#" class="btn">View on GitHub</a>
-        </div>
-
-    </div>
-</section>
-
+    </section>
 </body>
 </html>
